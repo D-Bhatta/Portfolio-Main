@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+# Portfolio
 
-You can use the [editor on GitHub](https://github.com/D-Bhatta/Portfolio-Main/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- markdownlint-disable MD024 -->
+## Sections
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Portfolio](#portfolio)
+  - [Sections](#sections)
+  - [Summary](#summary)
+  - [Resume](#resume)
+  - [Skills](#skills)
+    - [Languages](#languages)
+      - [Fluent](#fluent)
+      - [Intermediate](#intermediate)
+      - [Learning](#learning)
+    - [Frameworks, API, and Cloud services](#frameworks-api-and-cloud-services)
+      - [Fluent](#fluent-1)
+      - [Intermediate](#intermediate-1)
+      - [Learning](#learning-1)
+  - [Projects](#projects)
+  - [Contact](#contact)
 
-### Markdown
+## Summary
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
 
-```markdown
-Syntax highlighted code block
+## Resume
 
-# Header 1
-## Header 2
-### Header 3
+Here's a link to my [resume](https://github.com/D-Bhatta/Portfolio-Main/blob/main/Resume_general_2.pdf). Feel free to [contact me](#contact).
 
-- Bulleted
-- List
+## Skills
 
-1. Numbered
-2. List
+### Languages
 
-**Bold** and _Italic_ and `Code` text
+#### Fluent
 
-[Link](url) and ![Image](src)
-```
+Python, Java, C++, HTML & CSS, SQL
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Intermediate
 
-### Jekyll Themes
+JavaScript
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/D-Bhatta/Portfolio-Main/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Learning
 
-### Support or Contact
+Kotlin, PowerShell & Bash scripting for CI/CD, PHP
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Frameworks, API, and Cloud services
+
+#### Fluent
+
+AWS services: Amplify, Android SDK, Google APIs
+
+#### Intermediate
+
+AWS services: EC2, S3, Simple DB
+Python: Flask, Django
+JavaScript: Node.js
+Databases: MariaDB, MongoDB
+
+#### Learning
+
+Machine Learning: Model development with scikit-learn, TensorFlow, Keras. Data representation with matplotlib.
+AWS: Model Training on Cloud Instances with AWS infrastructure, GAN training with AWS DeepComposer
+
+## Projects
+
+## Contact
+
+My [email](mailto:d.bhatta.1232@gmail.com).
+
+My [GitHub](https://github.com/D-Bhatta).
