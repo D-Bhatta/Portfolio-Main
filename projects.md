@@ -1,6 +1,6 @@
 # Projects
 
-Hello! Welcome to my projects page. Here are all projects I am working on, as well as the ones I have built in the past. Here is a link to my [portfolio page](portfolio.html).
+Hello! Welcome to my projects page. Here are all projects I am working on, as well as the ones I have built in the past. Here is a link to my [portfolio page](index.html).
 
 But first, a little about me!
 
