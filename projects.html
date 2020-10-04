@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Projects</title>
   <link rel="stylesheet" href="awsm_theme_big-stone.min.css">
-  <title>Untitled</title>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -46,7 +46,27 @@
 <p><em>Web and Android app with a custom python backend that generates custom Question sets from a very large question bank database.</em></p>
 <ul>
 <li>Supervised a team of 8 developers to design and develop a web application component, and kept development on track when half the team dropped out.</li>
-<li>Created a python application that connects to a MariaDB instan</li>
+<li>Created a python application that connects to a MariaDB instance with 1000s of questions and generates a well-balanced question paper in 3 seconds.</li>
+<li>Optimized the python application and the database instance that reduced processing time by 12 seconds from 15 to 3 seconds, a reduction of 500%.</li>
+<li>Ported the web app to an Android app using WebView, which now eased app use on mobile devices. <strong>Technologies used: Python, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest</strong></li>
 </ul>
+<h3 id="project-setup">Project-Setup</h3>
+<p><em>Python application that sets up a custom development environment in seconds.</em></p>
+<ul>
+<li>Created functionality to store any commands in YAML files, which created a layer of abstraction that allows for language agnostic setup.</li>
+<li>Wrote tests for the entire package leading to more than 95% code coverage.</li>
+<li>Developed and documented set of commands for setting up python projects along with CI pipeline, which leads to consistent local workflow across all projects of the organization. <strong>Technologies used: Python, YAML, Pytest</strong></li>
+</ul>
+<h3 id="machine-learning-projects">Machine Learning Projects</h3>
+<ul>
+<li>Developed models for the following datasets: <strong>Pima Indians Diabetes dataset, Boston Housing dataset, Iris flowers dataset</strong>.</li>
+<li>Analyzed the <strong>StackOverflow 2019 developer survey</strong>.</li>
+</ul>
+<h3 id="echo-music-player">Echo Music Player</h3>
+<ul>
+<li>Developed music player Android application using Kotlin. <strong>Technologies used: Kotlin</strong></li>
+</ul>
+<h3 id="wget-downloader">Wget Downloader</h3>
+<p><strong>Python</strong> utility that downloads and archives webpages using the wget tool. Designed application architecture to generate layers of abstraction so that only a file with links is required for input, simplifying archival operations.</p>
 </body>
 </html>
