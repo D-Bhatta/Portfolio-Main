@@ -9,7 +9,7 @@ html{
   font-size:100%;
   line-height:1.4;
   background:#1b2d3e;
-  color:#99c0c9;
+  color:#eceff1;
   -webkit-overflow-scrolling:touch;
 }
 
@@ -247,7 +247,7 @@ article > footer{
 }
 
 a{
-  color:#1570ab;
+  color:#aec8e7;
 }
 a:visited{
   color:#726191;
@@ -256,7 +256,7 @@ a:hover, a:active{
   outline-width:0;
 }
 a:hover{
-  color:#aec8e7;
+  color:#1570ab;
 }
 a abbr{
   font-size:1em;
