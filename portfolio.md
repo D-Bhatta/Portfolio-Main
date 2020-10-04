@@ -63,6 +63,8 @@ AWS: Model Training on Cloud Instances with AWS infrastructure, GAN training wit
 
 ## Projects
 
+Here's a link to my [projects](projects.html)
+
 ## Contact
 
 My [email](mailto:d.bhatta.1232@gmail.com).
