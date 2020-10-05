@@ -18,12 +18,16 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
   - [Free Lancing](#free-lancing)
     - [Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]](#client-cru-startup-fintech-android-app-name-withheld-for-client-confidentiality)
   - [Key Projects](#key-projects)
+  - [Python, Web, and Android Projects](#python-web-and-android-projects)
     - [Diabetes Prediction](#diabetes-prediction)
     - [Random Question Paper Generator](#random-question-paper-generator)
+  - [Python Projects](#python-projects)
     - [Project-Setup](#project-setup)
-    - [Machine Learning Projects](#machine-learning-projects)
-    - [Echo Music Player](#echo-music-player)
     - [Wget Downloader](#wget-downloader)
+  - [Machine Learning with Python Projects](#machine-learning-with-python-projects)
+    - [Machine Learning Projects](#machine-learning-projects)
+  - [Android Projects](#android-projects)
+    - [Echo Music Player](#echo-music-player)
 
 ## Open Source Contributions
 
@@ -48,6 +52,8 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
 
 Key projects showcase
 
+## Python, Web, and Android Projects
+
 ### Diabetes Prediction
 
 *Android app with a Flask backend that performs diabetes prediction with an ensemble of 6 trained machine learning models.*
@@ -68,6 +74,8 @@ Key projects showcase
 - Ported the web app to an Android app using WebView, which now eased app use on mobile devices.
 **Technologies used: Python, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest**
 
+## Python Projects
+
 ### Project-Setup
 
 *Python application that sets up a custom development environment in seconds.*
@@ -77,16 +85,20 @@ Key projects showcase
 - Developed and documented set of commands for setting up python projects along with CI pipeline, which leads to consistent local workflow across all projects of the organization.
 **Technologies used: Python, YAML, Pytest**
 
+### Wget Downloader
+
+**Python** utility that downloads and archives webpages using the wget tool. Designed application architecture to generate layers of abstraction so that only a file with links is required for input, simplifying archival operations.
+
+## Machine Learning with Python Projects
+
 ### Machine Learning Projects
 
 - Developed models for the following datasets: **Pima Indians Diabetes dataset, Boston Housing dataset, Iris flowers dataset**.
 - Analyzed the **StackOverflow 2019 developer survey**.
 
+## Android Projects
+
 ### Echo Music Player
 
 - Developed music player Android application using Kotlin.
 **Technologies used: Kotlin**
-
-### Wget Downloader
-
-**Python** utility that downloads and archives webpages using the wget tool. Designed application architecture to generate layers of abstraction so that only a file with links is required for input, simplifying archival operations.
