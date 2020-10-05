@@ -8,6 +8,23 @@ But first, a little about me!
 
 I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
 
+## Sections
+
+- [Projects](#projects)
+  - [Summary](#summary)
+  - [Sections](#sections)
+  - [Open Source Contributions](#open-source-contributions)
+    - [scikit-image: Image processing in Python](#scikit-image-image-processing-in-python)
+  - [Free Lancing](#free-lancing)
+    - [Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]](#client-cru-startup-fintech-android-app-name-withheld-for-client-confidentiality)
+  - [Key Projects](#key-projects)
+    - [Diabetes Prediction](#diabetes-prediction)
+    - [Random Question Paper Generator](#random-question-paper-generator)
+    - [Project-Setup](#project-setup)
+    - [Machine Learning Projects](#machine-learning-projects)
+    - [Echo Music Player](#echo-music-player)
+    - [Wget Downloader](#wget-downloader)
+
 ## Open Source Contributions
 
 ### [scikit-image: Image processing in Python](https://github.com/scikit-image/scikit-image/pull/4599)
