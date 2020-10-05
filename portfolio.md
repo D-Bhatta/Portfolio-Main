@@ -18,6 +18,7 @@
       - [Learning](#learning-1)
   - [Projects](#projects)
   - [Contact](#contact)
+  - [Education](#education)
 
 ## Summary
 
@@ -70,3 +71,9 @@ Here's a link to my [projects](projects.html)
 My [email](mailto:d.bhatta.1232@gmail.com).
 
 My [GitHub](https://github.com/D-Bhatta).
+
+## Education
+
+**Bachelor of Technology** in Computer Science and Engineering, CGPA:9.1/10, 2016-2020, from [JIS University](https://jisuniversity.ac.in/), Kolkata.
+
+[Certifications](certifications.html) in Data Structures, Social Networks, Machine Learning, DBMS, AWS DeepComposer & Android development from NPTEL, Udacity & InternShala.

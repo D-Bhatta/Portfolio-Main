@@ -1,2 +1,3 @@
 pandoc --standalone --from gfm --to html5 projects.md --output projects.html
 pandoc --standalone --from gfm --to html5 portfolio.md --output index.html
+pandoc --standalone --from gfm --to html5 certifications.md --output certifications.html
