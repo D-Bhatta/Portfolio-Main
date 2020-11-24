@@ -1,5 +1,7 @@
 # Portfolio
 
+Hello I am Debabrata Bhattacharya, a Software Engineer. I have recently graduated college and I am currently looking for work. Feel free to [contact me](#contact)!
+
 <!-- markdownlint-disable MD024 -->
 ## Sections
 
