@@ -1,6 +1,8 @@
 # Projects
 
-Hello! Welcome to my projects page. Here are all projects I am working on, as well as the ones I have built in the past. Here is a link to my [portfolio page](index.html).
+Hello! I am Debabrata Bhattacharya. Welcome to my projects page.
+
+Here are all projects I am working on, as well as the ones I have built in the past. Here is a link to my [portfolio page](index.html).
 
 But first, a little about me!
 
@@ -28,6 +30,11 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
     - [Machine Learning Projects](#machine-learning-projects)
   - [Android Projects](#android-projects)
     - [Echo Music Player](#echo-music-player)
+  - [Django Projects](#django-projects)
+    - [Nasa-Get](#nasa-get)
+    - [OpenCV-Masker-Django](#opencv-masker-django)
+    - [Django-Invoicing](#django-invoicing)
+    - [Personal Portfolio and Blog](#personal-portfolio-and-blog)
 
 ## Open Source Contributions
 
@@ -46,6 +53,7 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
 - Developed and deployed Amazon Web Services as a serverless backend functionality which reduced cost of development to far below client expectations.
 - Created a class to interface AWS functionality with the app while maintaining abstraction between app layers. This led to much easier debugging and reduced development time.
 - Managed client communications to aid them in developing suitable business processes.
+
 **Technologies used: Java, Android SDK and Google APIs, AWS Amplify, AWS SimpleDB, AWS S3**
 
 ## Key Projects
@@ -62,6 +70,7 @@ Key projects showcase
 - Led a team of 4 developers to create UIs and Kotlin backend code, and delivered functionality on a tight deadline.
 - Developed and deployed a Flask application to act as an API and serve as the backend for the Android app.
 - Developed pipelined architecture for training and serializing 6 models on the Pima Indians diabetes data set, which were then encapsulated into an ensemble and deployed using a Flask based API
+
 **Technologies used: Kotlin, Python, Flask, scikit-learn, Android SDK, Pytest**
 
 ### Random Question Paper Generator
@@ -72,6 +81,7 @@ Key projects showcase
 - Created a python application that connects to a MariaDB instance with 1000s of questions and generates a well-balanced question paper in 3 seconds.
 - Optimized the python application and the database instance that reduced processing time by 12 seconds from 15 to 3 seconds, a reduction of 500%.
 - Ported the web app to an Android app using WebView, which now eased app use on mobile devices.
+
 **Technologies used: Python, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest**
 
 ## Python Projects
@@ -83,6 +93,7 @@ Key projects showcase
 - Created functionality to store any commands in YAML files, which created a layer of abstraction that allows for language agnostic setup.
 - Wrote tests for the entire package leading to more than 95% code coverage.
 - Developed and documented set of commands for setting up python projects along with CI pipeline, which leads to consistent local workflow across all projects of the organization.
+
 **Technologies used: Python, YAML, Pytest**
 
 ### Wget Downloader
@@ -101,4 +112,42 @@ Key projects showcase
 ### Echo Music Player
 
 - Developed music player Android application using Kotlin.
+
 **Technologies used: Kotlin**
+
+## Django Projects
+
+### Nasa-Get
+
+- Developed a Django app that displays results from querying NASA's public APIs.
+- Designed the app to be a no code solution to viewing latest data from NASA's public APIs.
+- Developed functionality to let users choose from a selection of 4 APIs and get their results just by clicking on them in the index page.
+
+**Technologies used: Python, Django, Ridge CSS, SQLite**
+
+### OpenCV-Masker-Django
+
+- Developed a computer vision Django app that utilizes the OpenCV-Masker algorithm to mask colors in a video.
+- The app can **render objects** of a certain color **practically invisible** in an entire video.
+- Designed the app to let users automatically edit out objects of a certain color.
+- Created a class `Masker` that can be used to perform masking operations on videos very easily by utilizing OpenCV functionality.
+
+**Technologies used: Python, Django, Ridge CSS, Computer Vision, OpenCV**
+
+### Django-Invoicing
+
+- Developed an invoicing Django app with a PostgreSQL backend for daily use by freelancers
+- Developed and deployed native authentication functionality using usernames and passwords
+- Created a solution for customising the invoice page from app settings itself
+- Developed functionality to download a PDF version of the invoice
+- Automated generation of invoice number, dates, etc.
+
+**Technologies used: Python, Django, Ridge CSS, PostgreSQL, pandoc**
+
+### Personal Portfolio and Blog
+
+- A persoanl portfolio and blogging app
+- Can be used to display projects
+- Can be used to write articles in a blog
+
+**Technologies used: Python, Django, Ridge CSS, SQLite**
