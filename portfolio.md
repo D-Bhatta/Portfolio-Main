@@ -52,7 +52,7 @@ Kotlin, PowerShell & Bash scripting for CI/CD, PHP
 
 #### Fluent
 
-**AWS services:** Amplify, Android SDK, Google APIs
+AWS Amplify, Android SDK, Google APIs
 
 #### Intermediate
 
