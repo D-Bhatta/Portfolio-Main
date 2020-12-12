@@ -195,6 +195,8 @@ h1 > a[href^="#"][id]:empty::before, h2 > a[href^="#"][id]:empty::before, h3 > a
 
 h1{
   font-size:2.5em;
+  text-align: center;
+  padding: 0.5em;
 }
 
 h2{
@@ -247,7 +249,7 @@ article > footer{
 }
 
 a{
-  color:#aec8e7;
+  color:#0ee4c7;
 }
 a:visited{
   color:#726191;
