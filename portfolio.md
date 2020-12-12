@@ -2,13 +2,23 @@
 
 Hello I am Debabrata Bhattacharya, a Software Engineer. I have recently graduated college and I am currently looking for work. Feel free to [contact me](#contact)!
 
+## Summary
+
+I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
+
+## Resume
+
+Here's a link to my [resume](./Resume_general_2.pdf). Feel free to [contact me](#contact).
+
+You can download a `.docx` format of my [resume here](./Resume_general_2.docx).
+
 <!-- markdownlint-disable MD024 -->
 ## Sections
 
 - [Portfolio](#portfolio)
-  - [Sections](#sections)
   - [Summary](#summary)
   - [Resume](#resume)
+  - [Sections](#sections)
   - [Skills](#skills)
     - [Languages](#languages)
       - [Fluent](#fluent)
@@ -21,14 +31,6 @@ Hello I am Debabrata Bhattacharya, a Software Engineer. I have recently graduate
   - [Projects](#projects)
   - [Contact](#contact)
   - [Education](#education)
-
-## Summary
-
-I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
-
-## Resume
-
-Here's a link to my [resume](https://github.com/D-Bhatta/Portfolio-Main/blob/main/Resume_general_2.pdf). Feel free to [contact me](#contact).
 
 ## Skills
 
@@ -50,23 +52,27 @@ Kotlin, PowerShell & Bash scripting for CI/CD, PHP
 
 #### Fluent
 
-AWS services: Amplify, Android SDK, Google APIs
+**AWS services:** Amplify, Android SDK, Google APIs
 
 #### Intermediate
 
-AWS services: EC2, S3, Simple DB
-Python: Flask, Django
-JavaScript: Node.js
-Databases: MariaDB, MongoDB
+**AWS services:** EC2, S3, SimpleDB, DynamoDB
+
+**Python:** Flask, Django
+
+**JavaScript:** Node.js
+
+**Databases:** MariaDB, MongoDB, PostgreSQL
 
 #### Learning
 
-Machine Learning: Model development with scikit-learn, TensorFlow, Keras. Data representation with matplotlib.
-AWS: Model Training on Cloud Instances with AWS infrastructure, GAN training with AWS DeepComposer
+**Machine Learning:** Model development with scikit-learn, TensorFlow, Keras. Data representation with matplotlib.
+
+**AWS:** Model Training on Cloud Instances with AWS infrastructure, GAN training with AWS DeepComposer
 
 ## Projects
 
-Here's a link to my [projects](projects.html)
+Here's a link to my [projects](projects.html).
 
 ## Contact
 
