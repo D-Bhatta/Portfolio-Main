@@ -17,24 +17,23 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
   - [Sections](#sections)
   - [Open Source Contributions](#open-source-contributions)
     - [scikit-image: Image processing in Python](#scikit-image-image-processing-in-python)
-  - [Free Lancing](#free-lancing)
-    - [Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]](#client-cru-startup-fintech-android-app-name-withheld-for-client-confidentiality)
-  - [Key Projects](#key-projects)
-  - [Python, Web, and Android Projects](#python-web-and-android-projects)
+  - [Free Lancing Work Experience](#free-lancing-work-experience)
+    - [Recent Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]](#recent-client-cru-startup-fintech-android-app-name-withheld-for-client-confidentiality)
+  - [Key Projects—See Portfolio at portfolio.debabrata.xyz](#key-projectssee-portfolio-at-portfoliodebabrataxyz)
+  - [Full Stack Projects](#full-stack-projects)
     - [Diabetes Prediction](#diabetes-prediction)
     - [Random Question Paper Generator](#random-question-paper-generator)
   - [Python Projects](#python-projects)
-    - [Project-Setup](#project-setup)
-    - [Wget Downloader](#wget-downloader)
+    - [Django Projects](#django-projects)
+      - [Nasa-Get](#nasa-get)
+      - [OpenCV-Masker](#opencv-masker)
+    - [Standalone Python projects](#standalone-python-projects)
+      - [Project-Setup](#project-setup)
+      - [Wget Downloader](#wget-downloader)
   - [Machine Learning with Python Projects](#machine-learning-with-python-projects)
     - [Machine Learning Projects](#machine-learning-projects)
   - [Android Projects](#android-projects)
     - [Echo Music Player](#echo-music-player)
-  - [Django Projects](#django-projects)
-    - [Nasa-Get](#nasa-get)
-    - [OpenCV-Masker-Django](#opencv-masker-django)
-    - [Django-Invoicing](#django-invoicing)
-    - [Personal Portfolio and Blog](#personal-portfolio-and-blog)
 
 ## Open Source Contributions
 
@@ -42,63 +41,104 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
 
 - Illustrated usage for natural sort algorithm by processing documentation in PR, which was successfully merged into master branch.
 
-## Free Lancing
+## Free Lancing Work Experience
 
-### Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]
+### Recent Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]
 
-- Accomplished feature engineering by communicating with client to develop overall project requirements.
-- Designed technical project architecture from client documents to create future roadmaps for development.
-- Designed and redesigned UI mockups by using client input which led to painless delivery.
-- Created app screens and developed Java backend code to deliver app functionality for serverless authentication and data storage.
-- Developed and deployed Amazon Web Services as a serverless backend functionality which reduced cost of development to far below client expectations.
-- Created a class to interface AWS functionality with the app while maintaining abstraction between app layers. This led to much easier debugging and reduced development time.
-- Managed client communications to aid them in developing suitable business processes.
+- Designed and developed Java Android app with respect to client business requirements.
+- Developed **authentication, data storage,** and certain business **functionality using API calls** for said app.
+- Developed and deployed **serverless Amazon Web Services** backend with **Amplify, DynamoDB, API Gateway, S3, and Lambda**.
 
-**Technologies used: Java, Android SDK and Google APIs, AWS Amplify, AWS SimpleDB, AWS S3**
+**Technologies used: Java, Android SDK and Google APIs, AWS Amplify, AWS DynamoDB, AWS S3, AWS Lambda**
 
-## Key Projects
+## Key Projects—See Portfolio at [portfolio.debabrata.xyz](https://portfolio.debabrata.xyz/)
 
-Key projects showcase
+Key projects showcasing Full Stack projects, Python projects, standalone Android apps, etc.
 
-## Python, Web, and Android Projects
+## Full Stack Projects
 
 ### Diabetes Prediction
 
-*Android app with a Flask backend that performs diabetes prediction with an ensemble of 6 trained machine learning models.*
+*Full Stack **Android app** with a **Flask backend** that performs diabetes prediction with an **ensemble of 6 trained machine learning models**.*
 
 - Designed application architecture from specification documents, which was used to develop detailed Agile based plan for project development.
-- Led a team of 4 developers to create UIs and Kotlin backend code, and delivered functionality on a tight deadline.
-- Developed and deployed a Flask application to act as an API and serve as the backend for the Android app.
-- Developed pipelined architecture for training and serializing 6 models on the Pima Indians diabetes data set, which were then encapsulated into an ensemble and deployed using a Flask based API
+- Led a team of 4 developers to create user interfaces and **Kotlin** code, and delivered functionality on a tight deadline.
+- Developed **pipelined architecture for training and serializing 6 models** on the Pima Indians diabetes data set, which were then **encapsulated into an ensemble**, and **deployed a Flask application** to act as an **API** and serve as the backend for the Android app
 
 **Technologies used: Kotlin, Python, Flask, scikit-learn, Android SDK, Pytest**
 
 ### Random Question Paper Generator
 
-*Web and Android app with a custom python backend that generates custom Question sets from a very large question bank database.*
+*​**Web** and **Android app** with a custom **python backend service** that generates custom Question sets from a very large question bank database.*
 
-- Supervised a team of 8 developers to design and develop a web application component, and kept development on track when half the team dropped out.
-- Created a python application that connects to a MariaDB instance with 1000s of questions and generates a well-balanced question paper in 3 seconds.
-- Optimized the python application and the database instance that reduced processing time by 12 seconds from 15 to 3 seconds, a reduction of 500%.
-- Ported the web app to an Android app using WebView, which now eased app use on mobile devices.
+- Led a team of 8 developers to design and develop a **PHP** web application component and a **Kotlin Android** component.
+- Developed a **Python** application queries a **MariaDB** instance with 1000s of questions and generates a well-balanced question paper in **3 seconds**.
+- Optimized the python application and the database instance that **reduced processing time** by 12 seconds **from 15 to 3 seconds**, a reduction of 500%.
+- Ported the web app to an Android app, which enabled app use on mobile devices.
 
-**Technologies used: Python, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest**
+**Technologies used: Python, Kotlin, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest**
 
 ## Python Projects
 
-### Project-Setup
+The next few sections detail Django, Flask, and Standalone Python projects.
 
-*Python application that sets up a custom development environment in seconds.*
+### Django Projects
 
-- Created functionality to store any commands in YAML files, which created a layer of abstraction that allows for language agnostic setup.
-- Wrote tests for the entire package leading to more than 95% code coverage.
-- Developed and documented set of commands for setting up python projects along with CI pipeline, which leads to consistent local workflow across all projects of the organization.
+#### Nasa-Get
+
+*​**Django app** that displays data collected from querying **NASA APIs**.*
+
+View here: [Deployed on PythonAnywhere.](https://d5625.pythonanywhere.com/home/).
+
+- Designed the app to be a no code solution to viewing latest data from NASA's public APIs.
+- Simple design for a clean UX.
+- Smart, auto-expiring authentication for security.
+- Supports up to 4 NASA APIs.
+
+**Technologies used: Python, Django, NASA APIs, Ridge CSS, HTML, SQLite**
+
+#### OpenCV-Masker
+
+*​**Computer Vision Django app** that utilizes the OpenCV-Masker algorithm to mask colors in a video.*
+
+View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.com/masker/home/)
+
+- The app can **render objects** of a certain color **practically invisible** in an entire video.
+- Allows user to remove a color in a video and replace it with the background.
+- Replicates the invisible cloak effect in Harry Potter movies.
+
+**Technologies used: Python, Django, OpenCV, Ridge CSS, HTML**
+
+<!-- ### Django-Invoicing
+
+- Developed an invoicing Django app with a PostgreSQL backend for daily use by freelancers
+- Developed and deployed native authentication functionality using usernames and passwords
+- Created a solution for customising the invoice page from app settings itself
+- Developed functionality to download a PDF version of the invoice
+- Automated generation of invoice number, dates, etc.
+
+**Technologies used: Python, Django, Ridge CSS, PostgreSQL, pandoc** -->
+
+### Standalone Python projects
+
+#### Project-Setup
+
+*​**Python** application that sets up a custom development environment in seconds.*
+
+- Created functionality to store any commands in **YAML** files, which created a layer of abstraction that allows for language agnostic setup.
+- Wrote tests for the entire package leading to more than 95% code coverage using **pytest**.
+- Developed and documented set of commands for setting up python projects along with CI pipeline using Travis-CI, which leads to consistent local workflow across all projects of the organization.
 
 **Technologies used: Python, YAML, Pytest**
 
-### Wget Downloader
+#### Wget Downloader
 
-**Python** utility that downloads and archives webpages using the wget tool. Designed application architecture to generate layers of abstraction so that only a file with links is required for input, simplifying archival operations.
+*​**Python** utility that downloads and archives webpages using the wget tool.*
+
+- Designed application architecture to generate layers of abstraction so that only a file with links is required for input, simplifying archival operations.
+- Downloads and stores webpages within individual folders.
+
+**Technologies used: Python, Wget**
 
 ## Machine Learning with Python Projects
 
@@ -111,43 +151,9 @@ Key projects showcase
 
 ### Echo Music Player
 
-- Developed music player Android application using Kotlin.
+- Developed music player Android application using **Kotlin**.
+- App can play, stop, resume music files stored on the device.
+- Automatically discovers music files on device.
+- Can 'favorite' music with a `Favorite` button.
 
 **Technologies used: Kotlin**
-
-## Django Projects
-
-### Nasa-Get
-
-- Developed a Django app that displays results from querying NASA's public APIs.
-- Designed the app to be a no code solution to viewing latest data from NASA's public APIs.
-- Developed functionality to let users choose from a selection of 4 APIs and get their results just by clicking on them in the index page.
-
-**Technologies used: Python, Django, Ridge CSS, SQLite**
-
-### OpenCV-Masker-Django
-
-- Developed a computer vision Django app that utilizes the OpenCV-Masker algorithm to mask colors in a video.
-- The app can **render objects** of a certain color **practically invisible** in an entire video.
-- Designed the app to let users automatically edit out objects of a certain color.
-- Created a class `Masker` that can be used to perform masking operations on videos very easily by utilizing OpenCV functionality.
-
-**Technologies used: Python, Django, Ridge CSS, Computer Vision, OpenCV**
-
-### Django-Invoicing
-
-- Developed an invoicing Django app with a PostgreSQL backend for daily use by freelancers
-- Developed and deployed native authentication functionality using usernames and passwords
-- Created a solution for customising the invoice page from app settings itself
-- Developed functionality to download a PDF version of the invoice
-- Automated generation of invoice number, dates, etc.
-
-**Technologies used: Python, Django, Ridge CSS, PostgreSQL, pandoc**
-
-### Personal Portfolio and Blog
-
-- A persoanl portfolio and blogging app
-- Can be used to display projects
-- Can be used to write articles in a blog
-
-**Technologies used: Python, Django, Ridge CSS, SQLite**
