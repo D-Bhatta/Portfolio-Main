@@ -647,6 +647,7 @@ output{
 code, kbd, var, samp{
   font-family:Consolas, "Lucida Console", Monaco, monospace;
   font-style:normal;
+  color:#fbff00;
 }
 
 pre{
