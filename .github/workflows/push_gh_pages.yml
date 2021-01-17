@@ -26,4 +26,4 @@ jobs:
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull origin main
-          git push origin gh-pages
+          git push origin HEAD:gh-pages
