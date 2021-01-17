@@ -27,6 +27,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Push to gh-pages origin
         run: |
-          git checkout gh-pages
-          git merge main
           git push origin gh-pages
