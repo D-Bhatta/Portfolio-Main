@@ -56,7 +56,7 @@ AWS Amplify, Android SDK, Google APIs
 
 #### Intermediate
 
-**AWS services:** EC2, S3, SimpleDB, DynamoDB
+**AWS services:** EC2, S3, SimpleDB,  DynamoDB, Lambda, API Gateway
 
 **Python:** Flask, Django
 
@@ -66,9 +66,10 @@ AWS Amplify, Android SDK, Google APIs
 
 #### Learning
 
-**Machine Learning:** Model development with scikit-learn, TensorFlow, Keras. Data representation with matplotlib.
+**Machine Learning:** Model development with **scikit-learn, TensorFlow, Keras**. Data representation with **matplotlib**.
 
 **AWS:** Model Training on Cloud Instances with AWS infrastructure, GAN training with AWS DeepComposer
+**Azure services:** Azure AppService, Azure Virtual Machine
 
 ## Projects
 
