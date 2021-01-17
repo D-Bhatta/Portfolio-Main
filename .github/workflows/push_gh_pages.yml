@@ -22,8 +22,8 @@ jobs:
         with:
           fetch-depth: 0
       # Runs a set of commands using the runners shell
-      - name: Push to gh-pages origin
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'gh-pages'
+      - name: Commit report
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull origin main
+          git push origin gh-pages
