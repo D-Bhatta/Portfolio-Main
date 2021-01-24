@@ -1,8 +1,8 @@
-# Projects
+# Projects: 
 
-Hello! I am Debabrata Bhattacharya. Welcome to my projects page.
+Hello! I am Debabrata Bhattacharya. Welcome to my projects page for <project-name>.
 
-Here are all projects I am working on, as well as the ones I have built in the past. Here is a link to my [portfolio page](index.html).
+Here is a link to my [portfolio page](../index.html). And here's a link back to my [projects page](../projects.html).
 
 But first, a little about me!
 
@@ -12,14 +12,9 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
 
 ## Sections
 
-- [Projects](#projects)
+- [Projects:](#projects)
   - [Summary](#summary)
   - [Sections](#sections)
-  - [Open Source Contributions](#open-source-contributions)
-    - [scikit-image: Image processing in Python](#scikit-image-image-processing-in-python)
-  - [Free Lancing Work Experience](#free-lancing-work-experience)
-    - [Recent Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]](#recent-client-cru-startup-fintech-android-app-name-withheld-for-client-confidentiality)
-  - [Key Projects—See Portfolio at portfolio.debabrata.xyz](#key-projectssee-portfolio-at-portfoliodebabrataxyz)
   - [Full Stack Projects](#full-stack-projects)
     - [Diabetes Prediction](#diabetes-prediction)
     - [Random Question Paper Generator](#random-question-paper-generator)
@@ -34,26 +29,6 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
     - [Machine Learning Projects](#machine-learning-projects)
   - [Android Projects](#android-projects)
     - [Echo Music Player](#echo-music-player)
-
-## Open Source Contributions
-
-### [scikit-image: Image processing in Python](https://github.com/scikit-image/scikit-image/pull/4599)
-
-- Illustrated usage for natural sort algorithm by processing documentation in PR, which was successfully merged into master branch.
-
-## Free Lancing Work Experience
-
-### Recent Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]
-
-- Designed and developed Java Android app with respect to client business requirements.
-- Developed **authentication, data storage,** and certain business **functionality using API calls** for said app.
-- Developed and deployed **serverless Amazon Web Services** backend with **Amplify, DynamoDB, API Gateway, S3, and Lambda**.
-
-**Technologies used: Java, Android SDK and Google APIs, AWS Amplify, AWS DynamoDB, AWS S3, AWS Lambda**
-
-## Key Projects—See Portfolio at [portfolio.debabrata.xyz](https://portfolio.debabrata.xyz/)
-
-Key projects showcasing Full Stack projects, Python projects, standalone Android apps, etc.
 
 ## Full Stack Projects
 
