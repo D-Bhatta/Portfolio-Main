@@ -156,4 +156,4 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 - Automatically discovers music files on device.
 - Can 'favorite' music with a `Favorite` button.
 
-**Technologies used: Kotlin**
+**Technologies used: Kotlin, SQLite**
