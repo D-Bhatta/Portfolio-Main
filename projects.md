@@ -67,6 +67,8 @@ Key projects showcasing Full Stack projects, Python projects, standalone Android
 
 **Technologies used: Kotlin, Python, Flask, scikit-learn, Android SDK, Pytest**
 
+[View more.](projects/diabetes_prediction.html)
+
 ### Random Question Paper Generator
 
 *​**Web** and **Android app** with a custom **python backend service** that generates custom Question sets from a very large question bank database.*
