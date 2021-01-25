@@ -4,3 +4,4 @@ pandoc --standalone --from gfm --to html5 certifications.md --output certificati
 
 Projects:
 pandoc --standalone --from gfm --to html5 projects/diabetes_prediction.md --output projects/diabetes_prediction.html
+pandoc --standalone --from gfm --to html5 projects/random-question-paper-generator.md --output projects/random-question-paper-generator.html
