@@ -117,6 +117,8 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 
 **Technologies used: Python, Django, OpenCV, Ridge CSS, HTML**
 
+[View more.](projects/opencv-masker-python-django.html)
+
 <!-- ### Django-Invoicing
 
 - Developed an invoicing Django app with a PostgreSQL backend for daily use by freelancers
