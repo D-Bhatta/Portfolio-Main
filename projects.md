@@ -6,6 +6,8 @@ Here are all projects I am working on, as well as the ones I have built in the p
 
 But first, a little about me!
 
+<!-- markdownlint-disable MD036 -->
+
 ## Summary
 
 I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
@@ -80,6 +82,8 @@ Key projects showcasing Full Stack projects, Python projects, standalone Android
 
 **Technologies used: Python, Kotlin, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest**
 
+<!-- [View more.](projects/diabetes_prediction.html) -->
+
 ## Python Projects
 
 The next few sections detail Django, Flask, and Standalone Python projects.
@@ -98,6 +102,8 @@ View here: [Deployed on PythonAnywhere.](https://d5625.pythonanywhere.com/home/)
 - Supports up to 4 NASA APIs.
 
 **Technologies used: Python, Django, NASA APIs, Ridge CSS, HTML, SQLite**
+
+[View more.](projects/nasa-get.html)
 
 #### OpenCV-Masker
 
