@@ -6,6 +6,8 @@ Here is a link to my [portfolio page](../index.html). And here's a link back to 
 
 But first, a little about me!
 
+<!-- markdownlint-disable MD036 -->
+
 ## Summary
 
 I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
