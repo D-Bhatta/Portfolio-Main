@@ -141,6 +141,8 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 
 **Technologies used: Python, YAML, Pytest**
 
+[View more.](projects/project-setup-python.html)
+
 #### Wget Downloader
 
 *​**Python** utility that downloads and archives webpages using the wget tool.*
