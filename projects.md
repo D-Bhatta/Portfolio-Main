@@ -152,6 +152,8 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 
 **Technologies used: Python, Wget**
 
+[View more.](projects/wget-downloader-python.html)
+
 ## Machine Learning with Python Projects
 
 ### Machine Learning Projects
