@@ -6,6 +6,8 @@ Here are all projects I am working on, as well as the ones I have built in the p
 
 But first, a little about me!
 
+<!-- markdownlint-disable MD036 -->
+
 ## Summary
 
 I am a **Software Engineer** with experience developing **Java, Python, Android, and JavaScript** applications. I can develop, integrate, and deploy **AWS services**. I can also train and deploy **Machine Learning models in Python**.
@@ -67,7 +69,7 @@ Key projects showcasing Full Stack projects, Python projects, standalone Android
 
 **Technologies used: Kotlin, Python, Flask, scikit-learn, Android SDK, Pytest**
 
-[View more.](projects/diabetes_prediction.html)
+<!-- [View more.](projects/diabetes_prediction.html) -->
 
 ### Random Question Paper Generator
 
@@ -79,6 +81,8 @@ Key projects showcasing Full Stack projects, Python projects, standalone Android
 - Ported the web app to an Android app, which enabled app use on mobile devices.
 
 **Technologies used: Python, Kotlin, PHP, HTML, CSS, SQL, MariaDB, Android SDK, Pytest**
+
+<!-- [View more.](projects/diabetes_prediction.html) -->
 
 ## Python Projects
 
@@ -99,6 +103,8 @@ View here: [Deployed on PythonAnywhere.](https://d5625.pythonanywhere.com/home/)
 
 **Technologies used: Python, Django, NASA APIs, Ridge CSS, HTML, SQLite**
 
+[View more.](projects/nasa-get.html)
+
 #### OpenCV-Masker
 
 *​**Computer Vision Django app** that utilizes the OpenCV-Masker algorithm to mask colors in a video.*
@@ -110,6 +116,8 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 - Replicates the invisible cloak effect in Harry Potter movies.
 
 **Technologies used: Python, Django, OpenCV, Ridge CSS, HTML**
+
+[View more.](projects/opencv-masker-python-django.html)
 
 <!-- ### Django-Invoicing
 
@@ -133,6 +141,8 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 
 **Technologies used: Python, YAML, Pytest**
 
+[View more.](projects/project-setup-python.html)
+
 #### Wget Downloader
 
 *​**Python** utility that downloads and archives webpages using the wget tool.*
@@ -141,6 +151,8 @@ View here: [Deployed on PythonAnywhere.](https://dymmy1forgames.pythonanywhere.c
 - Downloads and stores webpages within individual folders.
 
 **Technologies used: Python, Wget**
+
+[View more.](projects/wget-downloader-python.html)
 
 ## Machine Learning with Python Projects
 
