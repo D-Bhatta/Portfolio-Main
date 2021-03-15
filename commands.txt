@@ -8,3 +8,4 @@ pandoc --standalone --from gfm --to html5 projects/random-question-paper-generat
 pandoc --standalone --from gfm --to html5 projects/nasa-get.md --output projects/nasa-get.html
 pandoc --standalone --from gfm --to html5 projects/opencv-masker-python-django.md --output projects/opencv-masker-python-django.html
 pandoc --standalone --from gfm --to html5 projects/project-setup-python.md --output projects/project-setup-python.html
+pandoc --standalone --from gfm --to html5 projects/wget-downloader-python.md --output projects/wget-downloader-python.html
