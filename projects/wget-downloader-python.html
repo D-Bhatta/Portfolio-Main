@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Projects: Wget Downloader</title>
+    <link rel="stylesheet" href="../awsm_theme_big-stone.css">
+    <link rel="stylesheet" href="../custom.css">
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<h1 id="projects-wget-downloader">Projects: Wget Downloader</h1>
+<p>Hello! I am Debabrata Bhattacharya. Welcome to my projects page for Wget Downloader.</p>
+<p>Here is a link to my <a href="../index.html">portfolio page</a>. And here's a link back to my <a href="../projects.html">projects page</a>.</p>
+<p>But first, a little about me!</p>
+<!-- markdownlint-disable MD036 -->
+
+<h2 id="summary">Summary</h2>
+<p>I am a <strong>Software Engineer</strong> with experience developing <strong>Java, Python, Android, and JavaScript</strong> applications. I can develop, integrate, and deploy <strong>AWS services</strong>. I can also train and deploy <strong>Machine Learning models in Python</strong>.</p>
+<h2 id="sections">Sections</h2>
+<ul>
+<li><a href="#projects-wget-downloader">Projects: Wget Downloader</a>
+<ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#sections">Sections</a></li>
+<li><a href="#python-projects-wget-downloader">Python Projects: Wget Downloader</a>
+<ul>
+<li><a href="#source-code">Source Code</a></li>
+<li><a href="#how-it-works">How it works</a></li>
+<li><a href="#intended-audience">Intended audience</a></li>
+<li><a href="#result">Result</a></li>
+<li><a href="#sample-code">Sample code</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="python-projects-wget-downloader">Python Projects: Wget Downloader</h2>
+<p><em>​<strong>Python</strong> application utility that downloads and archives webpages using the wget tool.</em></p>
+<ul>
+<li>Designed to archive most comprehensive version of webpages.</li>
+<li>Added checks for network availability, presence of files, and other boundary cases</li>
+<li>Developed and documented set of commands for setting up and using the tool</li>
+<li>Designed application architecture to generate layers of abstraction so that only a file with links is required for input, simplifying archival operations.</li>
+<li>Downloads and stores webpages within individual folder</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode powershell"><code class="sourceCode powershell"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a>Wget_downloader.<span class="fu">py</span> <span class="st">&quot;links.txt&quot;</span> <span class="st">&quot;names.txt&quot;</span></span></code></pre></div>
+<p><strong>Technologies used: Python, Wget</strong></p>
+<h3 id="source-code">Source Code</h3>
+<p>View the source code on <a href="https://github.com/D-Bhatta/Wget-Downloader">GitHub here</a>.</p>
+<h3 id="how-it-works">How it works</h3>
+<p>The python program checks for boundary cases and then uses the wget tool to download web pages into separate folders.</p>
+<p><a href="https://github.com/D-Bhatta/Wget-Downloader#example">Here</a> is an example.</p>
+<h3 id="intended-audience">Intended audience</h3>
+<p>This tool is meant to be used to download a list of links and store them in folders from a list of folder names, purely for archival purposes.</p>
+<h3 id="result">Result</h3>
+<p>Here is a screenshot of the directory after downloading a set of links:</p>
+<p><img src="./../static/img/wget-downloader-python-results.png" alt="Project Setup Results" /></p>
+<p>The folder names are the names of the webpages, the text encapsulated inside the <code>title</code> tag. Inside each folder are all the files required to view the webpage online.</p>
+<h3 id="sample-code">Sample code</h3>
+<p>Here is some sample code to help you gauge code style:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="co">&#39;&#39;&#39;Downloads a list of links and stores them in folders from a list of folder names&#39;&#39;&#39;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a><span class="kw">class</span> WgetDownloader(<span class="bu">object</span>):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>,filename1, filename2):</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>        <span class="va">self</span>.filename1 <span class="op">=</span> filename1</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true"></a>        <span class="va">self</span>.filename2 <span class="op">=</span> filename2</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true"></a>        <span class="va">self</span>.names <span class="op">=</span> []</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true"></a>        <span class="va">self</span>.links <span class="op">=</span> []</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true"></a>        <span class="va">self</span>.queries <span class="op">=</span> []</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true"></a>    <span class="kw">def</span> open_files(<span class="va">self</span>):</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true"></a>        <span class="co">&#39;&#39;&#39;Open files and read them into lists&#39;&#39;&#39;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true"></a>        <span class="co">#check if file is empty</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true"></a>        <span class="co">#</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true"></a>        <span class="co">#Define exceptions</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true"></a>        <span class="kw">class</span> Error(<span class="pp">Exception</span>):</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true"></a>            <span class="co">&quot;&quot;&quot;Base class for other exceptions&quot;&quot;&quot;</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true"></a>            <span class="cf">pass</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true"></a>        <span class="kw">class</span> FileIsEmptyError(Error):</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true"></a>            <span class="co">&quot;&quot;&quot;Raised when file is empty&quot;&quot;&quot;</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true"></a>            <span class="cf">pass</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true"></a>        <span class="co">#open links file and read lines into list</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true"></a>        <span class="bu">print</span>(<span class="st">&quot;opening links file&quot;</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true"></a>        <span class="cf">try</span>:</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true"></a>            <span class="cf">with</span> <span class="bu">open</span>(<span class="va">self</span>.filename1) <span class="im">as</span> f:</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true"></a>                <span class="va">self</span>.links <span class="op">=</span> f.read().splitlines()</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true"></a>                <span class="cf">if</span> <span class="kw">not</span> <span class="va">self</span>.links:</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true"></a>                    <span class="cf">raise</span> FileIsEmptyError(<span class="st">&quot;links.txt is empty&quot;</span>)</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true"></a>                <span class="co">#print(self.links)</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true"></a>        <span class="cf">except</span> <span class="pp">FileNotFoundError</span>:</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true"></a>            <span class="bu">print</span>(<span class="st">&quot;file not found&quot;</span>)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true"></a>            <span class="va">self</span>.exit_function(status<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true"></a>        </span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true"></a>        <span class="co">#open names file and read lines into list</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true"></a>        <span class="bu">print</span>(<span class="st">&quot;opening name file&quot;</span>)</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true"></a>        <span class="cf">try</span>:</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true"></a>            <span class="cf">with</span> <span class="bu">open</span>(<span class="va">self</span>.filename2) <span class="im">as</span> f:</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true"></a>                <span class="va">self</span>.names <span class="op">=</span> f.read().splitlines()</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true"></a>                <span class="cf">if</span> <span class="kw">not</span> <span class="va">self</span>.names:</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true"></a>                    <span class="cf">raise</span> FileIsEmptyError(<span class="st">&quot;names.txt is empty&quot;</span>)</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true"></a>                <span class="co">#print(self.names)</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true"></a>        <span class="cf">except</span> <span class="pp">FileNotFoundError</span>:</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true"></a>            <span class="bu">print</span>(<span class="st">&quot;file not found&quot;</span>)</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true"></a>            <span class="va">self</span>.exit_function(status<span class="op">=</span><span class="dv">3</span>)</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true"></a>        </span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true"></a></span></code></pre></div>
+</body>
+</html>
