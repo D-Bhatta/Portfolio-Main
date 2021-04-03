@@ -19,8 +19,7 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
   - [Sections](#sections)
   - [Open Source Contributions](#open-source-contributions)
     - [scikit-image: Image processing in Python](#scikit-image-image-processing-in-python)
-  - [Free Lancing Work Experience](#free-lancing-work-experience)
-    - [Recent Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]](#recent-client-cru-startup-fintech-android-app-name-withheld-for-client-confidentiality)
+  - [Work Experience](#work-experience)
   - [Key Projects—See Portfolio at portfolio.debabrata.xyz](#key-projectssee-portfolio-at-portfoliodebabrataxyz)
   - [Full Stack Projects](#full-stack-projects)
     - [Diabetes Prediction](#diabetes-prediction)
@@ -43,15 +42,9 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
 
 - Illustrated usage for natural sort algorithm by processing documentation in PR, which was successfully merged into master branch.
 
-## Free Lancing Work Experience
+## Work Experience
 
-### Recent Client: Cr*****U (Startup): Fintech Android App [Name withheld for client confidentiality]
-
-- Designed and developed Java Android app with respect to client business requirements.
-- Developed **authentication, data storage,** and certain business **functionality using API calls** for said app.
-- Developed and deployed **serverless Amazon Web Services** backend with **Amplify, DynamoDB, API Gateway, S3, and Lambda**.
-
-**Technologies used: Java, Android SDK and Google APIs, AWS Amplify, AWS DynamoDB, AWS S3, AWS Lambda**
+I have 6 months of professional work experience as a freelance developer. **[Click here to view my work history](projects/work-history.html)**
 
 ## Key Projects—See Portfolio at [portfolio.debabrata.xyz](https://portfolio.debabrata.xyz/)
 
