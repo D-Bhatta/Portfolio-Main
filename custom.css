@@ -50,7 +50,7 @@ code span.dt { color: #359000; } /* DataType */
 code span.dv { color: #40a070; } /* DecVal */
 code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #66067e; } /* Function */
+code span.fu { color: #6179ff; } /* Function */
 code span.in { color: #9bb060; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -58,8 +58,8 @@ code span.ot { color: #007020; } /* Other */
 code span.pp { color: #bc7a00; } /* Preprocessor */
 code span.sc { color: #40a09b; } /* SpecialChar */
 code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #9840a0; } /* String */
-code span.va { color: #70177c; } /* Variable */
+code span.st { color: #23d3c4; } /* String */
+code span.va { color: #b6801b; } /* Variable */
 code span.vs { color: #66a040; } /* VerbatimString */
 code span.wa { color: #69b060; font-weight: bold; font-style: italic; } /* Warning */
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
