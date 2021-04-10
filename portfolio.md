@@ -90,7 +90,7 @@ My [GitHub](https://github.com/D-Bhatta).
 
 Here's a summary of my work history. I have 6 months of professional work experience as a freelance developer. Please respect that employer names are withheld in most cases due to client confidentiality agreements in my contracts.
 
-Below work history is in reverse chronological order (newest first), and abbreviated to last 2 clients. Click on the link at the end of this section to see more.
+Below work history is in reverse chronological order (newest first), and abbreviated to 2 clients. Click on the link at the end of this section to see more.
 
 ### Client: New-to-market, data driven Fintech Startup [Name withheld for client confidentiality]
 
