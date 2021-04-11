@@ -17,6 +17,7 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
   - [Summary](#summary)
   - [Sections](#sections)
   - [Work history: 6 months of professional experience](#work-history-6-months-of-professional-experience)
+    - [Client: Data driven job matching startup [Name withheld for client confidentiality]](#client-data-driven-job-matching-startup-name-withheld-for-client-confidentiality)
     - [Client: New-to-market, data driven Fintech Startup [Name withheld for client confidentiality]](#client-new-to-market-data-driven-fintech-startup-name-withheld-for-client-confidentiality)
     - [Client: Mid-sized steel and other metals manufacturing concern [Name withheld for client confidentiality]](#client-mid-sized-steel-and-other-metals-manufacturing-concern-name-withheld-for-client-confidentiality)
       - [Contract 1](#contract-1)
@@ -34,6 +35,17 @@ I am a **Software Engineer** with experience developing **Java, Python, Android,
 Here's a summary of my work history. I have 6 months of professional work experience as a freelance developer. Please respect that employer names are withheld in most cases due to client confidentiality agreements in my contracts.
 
 Below work history is in reverse chronological order (newest first).
+
+### Client: Data driven job matching startup [Name withheld for client confidentiality]
+
+***Hired for: Android development work***
+
+- Developed Android screens, according to client input.
+- Handed over project to team.
+
+**Technologies used: Kotlin, Room, Retrofit**
+
+**Time**: 6 Weeks (February 2021 - March 2021)
 
 ### Client: New-to-market, data driven Fintech Startup [Name withheld for client confidentiality]
 
